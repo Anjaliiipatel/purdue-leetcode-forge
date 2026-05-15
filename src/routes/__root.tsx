@@ -80,6 +80,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "LeetCode Club at Purdue" },
+      { name: "twitter:description", content: "Purdue's community of programmers mastering LeetCode together." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e3d5cd8c-7a1f-41de-b1d3-f987032f5f99/id-preview-9c8ae3fc--fa1c3b12-6cd1-43a6-b75d-3360b4aad7c0.lovable.app-1778809541127.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e3d5cd8c-7a1f-41de-b1d3-f987032f5f99/id-preview-9c8ae3fc--fa1c3b12-6cd1-43a6-b75d-3360b4aad7c0.lovable.app-1778809541127.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
